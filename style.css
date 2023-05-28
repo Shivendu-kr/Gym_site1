@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #009688;
+    overflow: hidden;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: #009688;
+  }  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+#banner{
+    background: linear-gradient(rgba(0 ,0, 0, 0.5), #009688),  url(./meditate\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+.logo{
+    width: 50px;
+    position: absolute;
+    top: 14%;
+    left: 7%;
+}
+#banner{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+}
+.banner-text h1{
+    font-size: 100px;
+    font-family: cursive;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.banner-text p{
+    font-size: 40px;
+    font-style: italic;
+}
+.btn{
+    margin: 70px auto 0;
+
+}
+.btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px  0;
+    color: white;
+    border: .5px solid white;
+}
+.btn a:hover{
+    font-size: 18px;
+    background-image: linear-gradient(to right, #ffffff38 0%, #85fd8580 51%, #ffffff4b 100%);
+    color: black;
+    transition: 0.5s ease;
+    box-shadow: 0px 5px #ffffff77;
+
+
+}
+@media screen and (max-width: 770px){
+
+    .banner-text h1{
+        font-size: 44px;
+        font-family: cursive;
+        font-family: 'Dancing Script', cursive;
+    }
+    .banner-text p{
+        font-size: 22px;
+        font-style: italic;
+    }
+    .btn{
+        margin: 30px auto 0;
+    }
+    .logo{
+        display: none;
+    }
+}
+ /*featuers css here*/
+
+ #features{
+    width: 100%;
+}
+.features-title{
+    width: 100%;
+    text-align: center;
+}
+.features-title p{
+    font-size: 40px;
+    color: #009688 ;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+}
+.features-title h1{
+   margin-top: -10px;
+    font-size: 65px;
+    color: black ;
+    font-weight: bolder;
+}
+.feature-box{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.features{
+    flex-basis: 50%;
+}
+.features h1{
+    background: linear-gradient(rgba(255, 255, 255, 0.5), #04e2cc63);
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #009688;
+}
+.f-dec{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.features-img{
+    
+    flex-basis: 50%;
+    margin: auto;
+}
+.features-img img{  
+    width: 70%;
+    border-radius: 15px;
+    }
+.f-icon .fa{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 8px;
+    color: 1px solid #009688;
+}
+.f-text p{
+    font-size: 17px;
+    font-weight: 200;
+    padding: 0 20px;
+    text-align: initial;
+}
+
+@media screen and (max-width: 770px){
+
+    .features-title h1{
+        font-size: 40px;
+
+    }
+    .features-title p{
+        font-size: 45px;
+    }
+
+.features{
+    flex-basis: 100%;
+}
+.features-img{
+    
+    flex-basis: 100%;
+   
+}
+.features-img img{
+    
+    width: 100%;
+    border-radius: 15px;
+}
+
+}
+/*--service css here--*/
+
+#service {
+
+width: 100%;
+margin-top: 70px 0;
+background: #efefef;
+}
+.service-box{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+.single-service{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: white;
+    position: relative;
+
+}
+.single-service img{
+
+    width: 100%;
+    border-radius: 7px;
+    
+    
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.5), #009688);
+    opacity: 0;
+    transition: 1s ;
+}
+
+.single-service:hover .overlay {
+    opacity: 1;
+       
+
+}
+.ser-dec{
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 1s;
+}
+.ser-dec h3{
+    font-size: 20px;
+}
+hr{
+    background: white;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+}
+.ser-dec{
+    font-size: 14px;
+
+}
+.single-service:hover .ser-dec{
+    bottom: 30%;
+    opacity: 1;
+}
+@media screen and (max-width: 770px){
+
+.single-service{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+.ser-dec h3{
+    font-size: 30px;
+    
+}
+
+.ser-dec p{
+    font-size: 17px;
+    color: black;
+}
+hr{
+    margin: 5px auto;
+}
+
+.single-service:hover .ser-dec{
+    bottom: 30% !important;
+    
+}
+
+}
+
+/*--Testimonial seaction--*/
+
+#testimonials{
+
+    width: 100%;
+    margin-top: 70px 0;
+    background: #dfdede;
+    }
+
+ .users{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+
+ }  
+ .user_1{
+    flex-basis: 30%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: white;
+    position: relative;
+ } 
+ .user_1 img{
+    width: 100%;
+    height: 300px;
+    border-radius: 7px;
+
+ }
+ .tweet img{
+   height: auto;
+  
+ }
+ .copyright{
+     background: darkgray;
+     padding: 10px;
+ }
+ .copyright p{
+     font-size: 15px;
+     font-weight: 700;
+     text-align: center;
+ }
+ @media screen and (max-width: 770px){
+    .users{
+        display: inline;
+        width: 80%;
+        margin: auto;
+    }
+    .user_1 img{
+        height: auto;
+    }
+
+
+ }
+
+/*--footer CSS here--*/
+#footer{
+    padding: 100px 0 20px;
+    background: #efefef;
+}
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-right, .footer-left{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+} 
+.footer-right{
+    text-align: right;
+}
+.footer-row h1{
+    margin: 10px 0;
+}
+.footer-row p{
+    line-height: 35px;
+}
+@media screen and (max-width: 770px){
+    .footer-row{
+        width: 100%;
+        display: inline;
+    }
+    .footer-right{
+        text-align: left;
+    }
+   .copyright{
+
+    width: 100%;
+    font-size: 12px;
+   }
+
+}
