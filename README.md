@@ -19,7 +19,7 @@ This project is a simple gym landing page built using HTML and CSS. The purpose 
 
 To view or modify the gym landing page, follow these steps:
 
-1. Clone the repository: 
+1. Clone the repository: https://github.com/Shivendu-kr/Gym_site1.git
 2. Open the project directory.
 3. Open the `index.html` file in your preferred web browser.
 4. Make changes to the HTML or CSS files as needed.
