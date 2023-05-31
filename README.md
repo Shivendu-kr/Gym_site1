@@ -2,7 +2,7 @@
 
 This project is a simple gym landing page built using HTML and CSS. The purpose of this repository is to provide a straightforward template for a gym or fitness-related website. With clean and modern design elements, this landing page aims to attract potential clients and provide essential information about the gym.
 
-## Features
+## Features 
 
 - **Responsive Design:** The landing page is optimized for various devices and screen sizes, ensuring a seamless browsing experience for users on desktop, tablets, and smartphones.
 - **Stylish Layout:** The page layout incorporates modern design principles, featuring an appealing color scheme, high-quality images, and well-organized sections.
@@ -17,7 +17,7 @@ This project is a simple gym landing page built using HTML and CSS. The purpose 
 
 ## Getting Started
 
-To view or modify the gym landing page, follow these steps:
+To view or modify the gym landing page,please follow these steps:
 
 1. Clone the repository: https://github.com/Shivendu-kr/Gym_site1.git
 2. Open the project directory.
